@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color: rgb(36 40 45);}
+       .cardsanim{
+        display: flex;
+        gap: 50px 60px;
+        justify-content: center;
+        margin-top: 200px;
+        flex-wrap: wrap;
+       } 
+       .cardsanim > a {
+        width: 200px;
+        height: 310px;
+        background-color: rgb(201, 194, 194);
+        border-radius: 7px;
+        filter: saturate(0);
+        transition: transform 0.3s ease-in-out;
+       }
+       .cardsanim > a:hover {
+        
+        background-color: rgb(253, 212, 157);
+       
+        transform: translateY(-30px);
+        transform: scale(1.07);
+        filter: saturate(100%);
+       }
+    </style>
+</head>
+<body>
+    <div class="cardsanim">
+        <a href="./about.html" target="_self"><img src="ps2.png" width="200" height="310" alt="playstation 2"></a>
+        <a href="./about.html" target="_self">about</a>
+        <a href="./about.html" target="_self">about</a>
+        <a href="./about.html" target="_self">about</a>
+        <a href="./about.html" target="_self">about</a>
+        
+        
+    </div>
+</body>
+</html>
